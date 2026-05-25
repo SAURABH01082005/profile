@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { profileData } from '../data/profileData';
 import axios from 'axios';
+import { toast } from 'react-toastify';
 
 export default function   Contact() {
   const { email, location, github, linkedin } = profileData.personal;
@@ -47,13 +48,14 @@ export default function   Contact() {
     setIsSubmitting(false);
       setSubmitSuccess(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
+      toast.success('Your message has been sent successfully!');
       return;
    }
    //give toast error if not 200
-    setTimeout(() => {
-      
-      setTimeout(() => setSubmitSuccess(false), 5000); // clear success msg after 5s
-    }, 1500);
+  else {
+    setIsSubmitting(false);
+    toast.error('An error occurred while sending your message. Please try again later.');
+  }
   };
 
   return (
