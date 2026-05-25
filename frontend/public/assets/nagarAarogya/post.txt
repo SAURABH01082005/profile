@@ -1,0 +1,22 @@
+Developed "NagarAarogya" an MERN ,Typescript and ML (to determine bed score) project.
+SIH problem statement by ministry of health and delhi gov 2025. 
+Key Learnings:
+Google maps and RayzorPay integration
+NagarAarogya intergartes citywide hospital (gov.) and allow bed allocation flexibility all at one interface. 
+With NagarAarogya, we designed a citywide hospital integration layer that works with existing hospital systems rather than replacing them.
+Existing hosptial have to do minimal changes to get in with NagarAarogya System (just have to add button for IPD registration)
+Why our System? 
+✅ Unified patient registration across connected hospitals
+ ✅ Cross-hospital doctor referrals
+ ✅ Real-time ICU / ward bed availability monitoring
+ ✅ Distance-based hospital discovery
+ ✅ Centralized report visibility
+ ✅ Smart OPD/IPD patient routing
+ ✅ Very clean ui with tabs like feature for easy switching.
+
+⚙️ React.js for frontend portals
+ ⚙️ Node.js + TypeScript backend
+ ⚙️ MongoDB for scalable storage
+ ⚙️ JWT + bcrypt for secure authentication
+ ⚙️ Machine Learning (Logistic Regression + rule-based intelligence) for emergency prioritization
+ youtube vedio link : https://lnkd.in/dbdmURwS
